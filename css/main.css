@@ -9,8 +9,8 @@ nav{
   background: rgba(0, 0, 0, 0.5);
   
 }
-nav.black{
-  background: rgba(0, 0, 0, 0.8);
+nav.vintage{
+  background: rgb(29, 19, 24);
   height: 100px;
   padding: 10px 100px;
 }
@@ -21,15 +21,16 @@ nav .logo{
   font-size: 24px;
   transition: .5s;
 }
-nav.black .logo{
+nav.vintage .logo{
   color: #fff;
 }
 section.sec1{
   width: 100%;
   height: 100vh;
-  background-image: url(../assets/img/w2.jpg);  
+  background-image: url(../assets/img/punta.jpg);  
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
+  
 
 }
 .sentence{
@@ -82,6 +83,13 @@ height: 100vh;
 /* footer */
 .page-footer {
 
-  background-color:#da7f77;
+  background-color:#be706a;
 }
 /* fin de footer */
+
+.mg{
+  margin-bottom: 100px;
+}
+.style{
+  color: #fff;
+}

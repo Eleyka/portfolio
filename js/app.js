@@ -1,9 +1,11 @@
 
+$('.button-collapse').sideNav();
+    
 $(window).on('scroll', function() {
   if ($(window).scrollTop()) {
-    $('nav').addClass('black');
+    $('nav').addClass('vintage');
   } else {
-    $('nav').removeClass('black');
+    $('nav').removeClass('vintage');
   }
 });
 
