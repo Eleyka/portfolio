@@ -2,529 +2,232 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio - Eleyka</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+
+  <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
-  <link rel="stylesheet" href="assets/icons/icomoon/style.css">
-  <link rel="shortcut icon" href="assets/icons/flor.png">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" href="src/ihover.css">
-
-
+  <link rel="stylesheet" href="assets/icons/icomoon/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/img/logoer.ico" />
 </head>
 
 <body>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">ER</a>
- 
-<!--       <img class="icons logo" src="assets/icons/flor.png" alt="flor">
- -->
-      <a href="#" data-activates="mobile-demo" class="button-collapse">
-        <i class="material-icons">menu</i>
-      </a>
+  <nav id="nav" class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img class="logoeleyne" src="assets/img/logoer.jpg" /></a>
       <ul class="right hide-on-med-and-down">
-        <li>
-          <a href="#about_me">Acerca de mí</a>
-        </li>
-        <li>
-          <a href="#abilities">Habilidades</a>
-        </li>
-        <li>
-          <a href="#projects">Proyecto</a>
-        </li>
-        <li>
-          <a href="#contact_me">Contáctame</a>
-        </li>
+        <li><a href="#s2">Acerca de mí</a></li>
+        <li><a href="#s3">Proyectos</a></li>
+        <li><a href="#footer">Contáctame</a></li>
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li>
-          <a href="#about_me">Acerca de mí</a>
-        </li>
-        <li>
-          <a href="#abilities">Habilidades</a>
-        </li>
-        <li>
-          <a href="#projects">Proyecto</a>
-        </li>
-        <li>
-          <a href="#contact_me">Contáctame</a>
-        </li>
-        <hr>
-        <li>
 
-          <a>
-            <i class="material-icons left">phone</i>Mov: 932843783</a>
-        </li>
-        <li>
-          <a>
-            <i class="material-icons left">email</i>Email</a>
-        </li>
-        <li>
-          <a>
-            <span class="icon-facebook"></span>
-            <span class="icon-twitter"></span>
-            <span class="icon-github"></span>
-            <span class="icon-linkedin2"></span>
-            <span class="icon-google-plus"></span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <p>Frond - End Developer
-              <br>© 2018</p>
-          </a>
-        </li>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#s2">Acerca de mí</a></li>
+        <li><a href="#s3">Proyectos</a></li>
+        <li><a href="#footer">Contáctame</a></li>
       </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <section id="start" class="start sec1">
+  <section id="s1" class="section1 ">
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
-        <div class="container">
-          <br>
-          <br>
-          <h1 class="header center text-lighten-2 style">Eleyne Ramírez</h1>
-          <h6 class="center style">FrondEnd Developer & Ingeniera de Sistemas</h6>
+        <div class="container soy">
+          <br><br>
+          <h1 class="header center brown-text text-lighten-2 nombre">Eleyne Ramírez</h1>
           <div class="row center">
-            <h5 class="header col s12 light style ">"El baile y la tecnología es mi verdadera pasión; ambos son un complemento perfecto en mi vida porque juntos
-              tienen el secreto de la felicidad que me hace sentir, soñar, expresar, gozar, disfrutar, vivir y amar."</h5>
+            <h5 class="header col s12 light front titulo">Ingeniera de Sistemas & Front-end Developer</h5>
           </div>
           <div class="row center">
-            <a href="#projects" id="download-button" class="btn-large waves-effect waves-light teal lighten-1 hide-on-small-only">Proyectos</a>
+            <a href="#s3" id="download-button" class="btn-large waves-effect waves-light amber lighten-3 btn-proyectos">Proyectos</a>
           </div>
-          <br>
-          <br>
+          <br><br>
 
         </div>
       </div>
-
+      <!--     <div class="parallax"><img src="fondo-yo.jpeg" alt="Unsplashed background img 1"></div>
+ --></div>
   </section>
-
-  <section>
+  <!-- Sección 2 -->
+  <section id="s2">
     <div class="container">
-      <div class="section about_me " id="about_me">
-        <br>
-        <br>
-        <br>
-        <br>
-        <h4 class="center">Acerca de mí</h4>
-        <p class="center">
-          <a href="#start">Home</a> | Acerca de mí</p>
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block center">
-              <!-- normal -->
-              <div class="ih-item square yo effect8 scale_up">
-                <a>
-                  <div class="img">
-                    <img src="assets/yo/yob.png" alt="img">
-                  </div>
-                  <div class="info">
-                    <h2 class="center brown-text">
-                      <i class="material-icons">important_devices</i>
-                    </h2>
-                    <h3>Soy</h3>
-
-                    <p>Ingeniera de Sistemas de profesión formada en la Universidad Nacional Hermilio Valdizán y ahora Front - end developer formada en Laboratoria.</p>
-                  </div>
-                </a>
-              </div>
-              <!-- end normal -->
- 
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block center">
-              <!-- normal -->
-              <div class="ih-item square yo effect8 scale_up">
-                  <a>
-                    <div class="img">
-                      <img src="assets/yo/yoc.png" alt="img">
-                    </div>
-                    <div class="info">
-                      <h2 class="center brown-text">
-                        <i class="material-icons">fitness_center</i>
-                      </h2>
-                      <h3>Cualidad</h3>
-                        <p>Perseverancia es mi mejor cualidad, porque cuando inicié este viaje entendí que en la vida, no es el tipo con
-                          el mejor potencial el que gana y que hay momentos de estar abajo antes de llegar arriba.
-                          <br>Muchas veces no pude sostenerme, pero estoy bien, porque sé que mañana me voy a levantar a hacerlo otra vez,
-                          y voy a ganarle a mi desempeño anterior.
-                        </p>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block center">
-                <!-- normal -->
-                <div class="ih-item square yo effect8 scale_up">
-                    <a>
-                      <div class="img">
-                        <img src="assets/yo/yoa.png" alt="img">
-                      </div>
-                      <div class="info">
-                        <h2 class="center brown-text">
-                          <i class="material-icons">grade</i>
-                        </h2>
-                        <h3>Interés</h3>
-                          <p>Me interesa mucho el sector Tech, es por esa razón que a fututo deseo especializarme en Research (Inteligencia
-                              Artificial y Proyectos), Data Science (Big Data) y en Gestión de Proyectos.</p>
-                      </div>
-                    </a>
-                  </div>
-                  <!-- end normal -->
-                      </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h5 class="header col s12 light">Eleyne Karina Ramírez De la Cruz</h5>
-          </div>
-        </div>
-      </div>
-      <div class="parallax">
-        <img src="assets/img/punta.jpg" alt="Unsplashed background img 2">
-      </div>
-    </div>
-
-  </section>
-  <section>
-    <div class="container">
-      <div id="abilities" class="abilities">
-
-        <div class="row">
-          <div class="col s12 center">
-            <h3>
-              <i class="mdi-content-send brown-text"></i>
-            </h3>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <h4>Habilidades</h4>
-            <p>
-              <a href="#start">Home</a> | Habilidades</p>
-            <div class="row">
-              <div class="col s5 offset-s1 m2 offset-m1">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/html5.svg" alt="img">
-                      <p>HTML5</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-              </div>
-              <div class="col s5 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/js.svg" alt="img">
-                      <p>JAVASCRIPT</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-              </div>
-              <div class="col s5 offset-s1 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a >
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/css3.svg" alt="img">
-                      <p>CSS3</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-              </div>
-              <div class="col s5 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/jquery.svg" alt="img">
-                      <p>JQUERY</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-
-              </div>
-              <div class="col s5 offset-s1 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/api.svg" alt="img">
-                      <p>API</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-
-              </div>
-              <div class="col m2 show-on-small	hide-on-med-and-up		">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/firebase.svg" alt="img">
-                      <p>FIREBASE</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-
-              </div>
-            </div>
-            <div class="row">
-              <div class="col s5 offset-s1 m2 offset-m1">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/bootstrap.svg" alt="img">
-                      <p>BOOTSTRAP</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-              </div>
-              <div class="col s5 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/materialize.png" alt="img">
-                      <p>MATERIALIZE</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-
-              </div>
-              <div class="col s5 offset-s1 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/github.svg" alt="img">
-                      <p>GITHUB</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-
-              </div>
-              <div class="col s5 m2">
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/babel.png" alt="img">
-                      <p>BABEL</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-
-              </div>
-              <div class="col m2 icons hide-on-small-only	show-on-medium-and-up">
-
-                <!-- normal -->
-                <div class="ih-item circle effect1 mg">
-                  <a>
-                    <div class="spinner"></div>
-                    <div class="img">
-                      <img src="assets/img/tech/firebase.svg" alt="img">
-                      <p>FIREBASE</p>
-                    </div>
-                    <div class="info">
-                      <div class="info-back">
-                        <h3>Heading here</h3>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <!-- end normal -->
-              </div>
-
-
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-  </section>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Eleyne Karina Ramírez De la Cruz</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax">
-      <img src="assets/img/w2.jpg" alt="Unsplashed background img 2">
-    </div>
-  </div>
-
-
-  <section>
-    <div class="container">
-
-      <div class="section projects " id="projects">
+      <div class="section2">
 
         <!--   Icon Section   -->
-        <div class="row">
-          <br>
-          <br>
-          <br>
-          <br>
-
-          <h4 class="center">Proyectos</h4>
+        <div class="row ">
+          <h4 class="center ">Acerca de mí</h4>
           <p class="center">
-            <a href="#start">Home</a> | Proyectos</p>
+            <a href="#nav">Home</a> | Acerca de mí</p>
           <div class="col s12 m4">
-            <div class="icon-block">
-
-              <h5 class="center">Lab - Car</h5>
-              <!-- normal -->
-              <div class="ih-item square effect13 bottom_to_top">
-                <a>
-                  <div class="img">
-                    <img src="assets/img/w2.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                    <h3>Lab - Car</h3>
-                    <p>Réplica aplicando Bootstrap</p>
-                  </div>
-                </a>
+            <div><img class="eleyne" src="assets/img/yo.jpg" /></div>
+          </div>
+          <div class="col s12  m8">
+            <div class="col s12 ">
+              <div class="icon-block">
+                <h6 class="center brown-text Playfair"><i class="material-icons">important_devices</i> Soy</h6>
+                <!--                 <h6 class="center">Soy</h6>
+ -->
+                <p class="light justify ">Ingeniera de Sistemas de profesión formada en la Universidad Nacional Hermilio Valdizán y ahora Front - end
+                  developer formada en Laboratoria.</p>
               </div>
-              <!-- end normal -->
+            </div>
 
+            <div class="col s12 ">
+              <div class="icon-block">
+                <h6 class="center brown-text Playfair"><i class="material-icons">fitness_center</i> Cualidad</h6>
+
+                <p class="light justify">Perseverancia es mi mejor cualidad, porque es la clave en mi vida diaria para cumplir con mis objetivos propuestos,
+                  pese a las dificultades que pudiera encontrar.<br>Durante mi formación desarrolle capacidades como: <i><b>Trabajo en equipo y proactividad.</b></i></p>
+              </div>
+            </div>
+
+            <div class="col s12 ">
+              <div class="icon-block">
+                <h6 class="center brown-text Playfair"><i class="material-icons">star</i> Interés</h6>
+
+                <p class="light justify">Así mismo adquirí diversas habilidades en: <em><b>HTML</b>, <b>JavaScript</b>, <b>CC3</b>, <b>Jquery</b>, <b>Materialize</b>, <b>Bootstrap</b>, <b>Api's</b>, <b>babel</b>, <b>Firebase</b></em>,
+                  entre otros; es por esa razón que me interesa mucho el sector Tech, y a futuro deseo especializarme en
+                  Research (Inteligencia Artificial y Proyectos), Data Science (Big Data) y en Gestión de Proyectos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12  m12">
+            <div class="center">
+              <h6>Reconocimiento Bootcamp Laboratoria 2017-2</h6>
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <div><img class="pin" src="assets/img/rocking.png" /></div>
+                  <p class="center contacto Playfair pin-nombre">Mejor Puntaje</p>
+
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <div><img class="pin" src="assets/img/logo.bin" /></div>
+                  <p class="center contacto Playfair  pin-nombre">Por ser perseverante</p>
+
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <div><img class="pin" src="assets/img/best_squad.png" /></div>
+
+                  <p class="center contacto Playfair  pin-nombre">Mejor trabajo en equipo</p>
+
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
+        </div>
 
-              <h5 class="center">Easy - Vreco</h5>
-              <!-- normal -->
-              <div class="ih-item square effect13 bottom_to_top">
-                <a>
-                  <div class="img">
-                    <img src="assets/img/w2.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                    <h3>Easy - Vreco</h3>
-                    <p>Api de Google Maps</p>
-                  </div>
-                </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 3 -->
+  <section id="s3">
+    <div class="section3 no-pad-bot">
+      <div class="container">
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <h4 class="center Playfair">Proyectos</h4>
+            <p class="center">
+              <a href="#nav">Home</a> | Proyectos</p>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+
+                <h5 class="center">Lab - Car</h5>
+                <!-- normal -->
+                <div class="ih-item square effect13 bottom_to_top">
+                  <a>
+                    <div class="img">
+                      <img src="assets/img/labcar.png" alt="img">
+                    </div>
+                    <div class="info">
+                      <h3>Herramientas</h3>
+                      <p class="herramientas">HTML5, CC3, JavaScript, APIS, Bootsttrap, jquery y Response Design </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- end normal -->
+                <hr/>
+                <div class="row center">
+                  <a href="https://eleyka.github.io/lab-car-boilerplate/" id="download-button" class="btn-large waves-effect waves-light red lighten-3">Demo</a>
+                  <a href="https://github.com/Eleyka/lab-car-boilerplate" id="download-button" class="btn-large waves-effect waves-light brown lighten-2">Github</a>
+                </div>
+                <hr/>
+                <p class="center"><b>Descripción</b></p>
+                <p class="justify">LabCar nueva app que va ayudar a la gente a librarse de los atascos y pueda, así, disfrutar de más tiempo
+                  para sí misma. A la vez una opción flexible para incrementar tus metas financieras.</p>
               </div>
-              <!-- end normal -->
             </div>
-          </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h5 class="center">Lyft</h5>
-              <!-- normal -->
-              <div class="ih-item square effect13 bottom_to_top">
-                <a>
-                  <div class="img">
-                    <img src="assets/img/w2.jpg" alt="img">
-                  </div>
-                  <div class="info">
-                    <h3>Lyft</h3>
-                    <p>jquery</p>
-                  </div>
-                </a>
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h5 class="center">Data Dashboard</h5>
+                <!-- normal -->
+                <div class="ih-item square effect13 bottom_to_top">
+                  <a>
+                    <div class="img">
+                      <img src="assets/img/datadashboard.png" alt="img">
+                    </div>
+                    <div class="info">
+                      <h3>Herramientas</h3>
+                      <p class="herramientas">HTML5, CC3, JavaScript, Data de laboratoria, DOM y chart.js</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- end normal -->
+                <hr/>
+                <div class="row center">
+                  <a href="https://carlacentenor.github.io/data-dashboard/" id="download-button" class="btn-large waves-effect waves-light red lighten-3">Demo</a>
+                  <a href="https://github.com/carlacentenor/data-dashboard" id="download-button" class="btn-large waves-effect waves-light brown lighten-2">Github</a>
+                </div>
+                <hr/>
+                <p class="center"><b>Descripción</b></p>
+                <p class="justify">Data Dashboard es una representación gráfica de los principales indicadores que permite ver el rendimiento
+                  de la alumna de laboratoria y a la vez intervienen en la consecución de los objetivos de Laboratoria, y
+                  que está orientada a la toma de decisiones para optimizar la estrategia de la empresa.</p>
               </div>
-              <!-- end normal -->
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h5 class="center">Travel - Red Social</h5>
+                <!-- normal -->
+                <div class="ih-item square effect13 bottom_to_top">
+                  <a>
+                    <div class="img">
+                      <img src="assets/img/red.png" alt="img">
+                    </div>
+                    <div class="info">
+                      <h3>Herramientas</h3>
+                      <p class="herramientas">HTML5, CC3, JavaScript, Jquery, Firebase y Materialize</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- end normal -->
+                <hr/>
+                <div class="row center">
+                  <a href="https://jennifercarmen.github.io/weTravel-app/" id="download-button" class="btn-large waves-effect waves-light red lighten-3">Demo</a>
+                  <a href="https://github.com/Jennifercarmen/weTravel-app" id="download-button" class="btn-large waves-effect waves-light brown lighten-2">Github</a>
+                </div>
+                <hr/>
+                <p class="center"><b>Descripción</b></p>
+                <p class="justify">weTravel app es una red social que brinda información y conecta a personas que desean viajar , permitiéndoles
+                  acceder a contenido y experiencias que harán de su viaje algo inolvidable.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -532,67 +235,59 @@
       </div>
     </div>
 
+    </div>
 
   </section>
 
 
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Eleyne Karina Ramírez De la Cruz</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax">
-      <img src="assets/img/w2.jpg" alt="Unsplashed background img 2">
-    </div>
-  </div>
 
 
 
 
 
-  <!-- Footer -->
-  <footer id="contact_me" class="page-footer">
+  <footer id="footer" class="page-footer grey">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Contáctame</h5>
-          <p>
-            <a href="#start">Home</a> | Contáctame</p>
-          <p class="grey-text text-lighten-4">Puede contactarme de la forma que sea conveniente para usted. Estoy disponible por correo electrónico o teléfono
-            celular. Estaré encantada en responder cualquier consulta u ofrecer cualquier ayuda.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Referencias</h5>
-          <ul>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">
-                <i class="material-icons left">phone</i>Mov: 932843783</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">
-                <i class="material-icons left">email</i>eleyneramirez5@gmail.com</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 4</a>
-            </li>
-            <li>
-              <a>
-                <span class="icon-facebook"></span>
-                <span class="icon-twitter"></span>
-                <span class="icon-github"></span>
-                <span class="icon-linkedin2"></span>
-                <span class="icon-google-plus"></span>
-              </a>
-            </li>
-          </ul>
+        <h4 class="center Playfair">Contáctame</h4>
+        <p class="center">
+          <a href="#nav">Home</a> | Contáctame</p>
+        <div class="row">
+          <div class="row">
+            <div class="col m12 col s12 center-align">
+              <h5 class="cv">Download CV</h5>
+              <!-- <a href="" download class="btn-floating btn waves-effect waves-light"><i class="material-icons">file_download</i></a> -->
+              <a href="assets/docs/cv-eleyne.pdf" class="btn-floating btn waves-effect waves-light amber lighten-3" class="btn-floating btn waves-effect waves-light"><i class="material-icons">file_download</i></a>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">phone</i></h2>
+                <p class="center contacto Playfair">Movistar: 932843783</p>
+
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block center">
+                <h2 class="center brown-text"><i class="material-icons">email</i></h2>
+                <p class="center contacto Playfair">eramirez@gmail.com</p>
+
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block center">
+                <h2 class="center brown-text"><i class="material-icons"><span class="icon-linkedin2"></span></i></h2>
+                <p class="center contacto Playfair">Eleyne Karina Ramírez De la Cruz</p>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -603,10 +298,12 @@
       </div>
     </div>
   </footer>
-  <!-- Fin de Footer -->
-  <script type="text/javascript" src="vendors/js/jquery.min.js"></script>
-  <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
 </body>
 
