@@ -123,9 +123,16 @@ font-size: 95px;
 font-size: 15px;
 font-weight: bold;
 }
-a:hover{
+a:hover, .download{
   color: black;
 }
 .logoeleyne{
   width: 70px;
 }
+.btn-floating i {
+  color: black;
+}
+.color-icon{
+  color: #ffe082;
+}
+
