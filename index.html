@@ -12,143 +12,122 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link rel="stylesheet" href="src/ihover.css">
   <link rel="stylesheet" href="assets/icons/icomoon/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Playfair+Display" rel="stylesheet">
+  <!--   <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro" rel="stylesheet">
+ -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
   <link rel="icon" type="image/png" href="assets/img/logoer.ico" />
 </head>
-
 <body>
-  <nav id="nav" class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img class="logoeleyne" src="assets/img/logoer.jpg" /></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#s2">Acerca de mí</a></li>
-        <li><a href="#s3">Proyectos</a></li>
-        <li><a href="#footer">Contáctame</a></li>
-      </ul>
+  <header id="nav">
+    <div class="navbar-fixed">
+      <nav class="black">
+        <div class="nav-wrapper container"> <a href="#!" class="brand-logo"><img class="logoeleyne"  src="assets/img/logotipo.png"/></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#s2">Acerca de mí</a></li>
-        <li><a href="#s3">Proyectos</a></li>
-        <li><a href="#footer">Contáctame</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#s2">Acerca de mí</a></li>
+            <li><a href="#s3">Proyectos</a></li>
+            <li><a href="#footer">Contáctame</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="#s2">Acerca de mí</a></li>
+      <li><a href="#s3">Proyectos</a></li>
+      <li><a href="#footer">Contáctame</a></li>
+    </ul>
+  </header>
+
+  <!-- SECCIÓN NÚMERO 1 -->
   <section id="s1" class="section1 ">
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container soy">
           <br><br>
-          <h1 class="header center brown-text text-lighten-2 nombre">Eleyne Ramírez</h1>
+          <h1 class="header center teal-text text-accent-2 nombre">Eleyne Ramírez</h1>
+          <hr>
           <div class="row center">
-            <h5 class="header col s12 light front titulo">Ingeniera de Sistemas & Front-end Developer</h5>
+            <h5 class="header col s12 teal-text text-lighten-5 front titulo">Front-End Developer e Ingeniería de Sistemas </h5>
           </div>
           <div class="row center">
-            <a href="#s3" id="download-button" class="btn-large waves-effect waves-light amber lighten-3 btn-proyectos">Proyectos</a>
+            <a href="#s3" id="download-button" class="btn-large waves-effect waves-light transparent btn-proyectos">Proyectos</a>
           </div>
           <br><br>
-
         </div>
       </div>
-      <!--     <div class="parallax"><img src="fondo-yo.jpeg" alt="Unsplashed background img 1"></div>
- --></div>
+    </div>
   </section>
-  <!-- Sección 2 -->
+  <!-- FIN SECCIÓN NÚMERO 1 -->
+  <!-- SECCIÓN NÚMERO 2 -->
   <section id="s2">
-    <div class="container">
-      <div class="section2">
-
-        <!--   Icon Section   -->
-        <div class="row ">
-          <h4 class="center ">Acerca de mí</h4>
-          <p class="center">
-            <a href="#nav">Home</a> | Acerca de mí</p>
-          <div class="col s12 m4">
-            <div><img class="eleyne" src="assets/img/yo.jpg" /></div>
-          </div>
-          <div class="col s12  m8">
-            <div class="col s12 ">
-              <div class="icon-block">
-                <h6 class="center brown-text Playfair"><i class="material-icons">important_devices</i> Soy</h6>
-                <!--                 <h6 class="center">Soy</h6>
- -->
-                <p class="light justify ">Ingeniera de Sistemas de profesión formada en la Universidad Nacional Hermilio Valdizán y ahora Front - end
-                  developer formada en Laboratoria.</p>
-              </div>
+    <div class="section2 no-pad-bot">
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <h4 class="center sizetitle">Acerca de mí</h4>
+            <p class="center">
+              <a href="#nav"> - Home - </a></p>
+            <div class="col s12 m4">
+              <div><img class="eleyne" src="assets/img/yo.jpg" /></div>
+              <p class="light justify hide-on-med-and-down	show-on-medium-and-up	">Además deseo especializarme en Investigación (Inteligencia Artificial y Proyectos), Data Science (Big Data)
+                y en Gestión de Proyectos. </p>
             </div>
-
-            <div class="col s12 ">
-              <div class="icon-block">
-                <h6 class="center brown-text Playfair"><i class="material-icons">fitness_center</i> Cualidad</h6>
-
-                <p class="light justify">Perseverancia es mi mejor cualidad, porque es la clave en mi vida diaria para cumplir con mis objetivos propuestos,
-                  pese a las dificultades que pudiera encontrar.<br>Durante mi formación desarrolle capacidades como: <i><b>Trabajo en equipo y proactividad.</b></i></p>
-              </div>
-            </div>
-
-            <div class="col s12 ">
-              <div class="icon-block">
-                <h6 class="center brown-text Playfair"><i class="material-icons">star</i> Interés</h6>
-
-                <p class="light justify">Así mismo adquirí diversas habilidades en: <em><b>HTML</b>, <b>JavaScript</b>, <b>CC3</b>, <b>Jquery</b>, <b>Materialize</b>, <b>Bootstrap</b>, <b>Api's</b>, <b>babel</b>, <b>Firebase</b></em>,
-                  entre otros; es por esa razón que me interesa mucho el sector Tech, y a futuro deseo especializarme en
-                  Research (Inteligencia Artificial y Proyectos), Data Science (Big Data) y en Gestión de Proyectos.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col s12  m12">
-            <div class="center">
-              <h6>Reconocimiento Bootcamp Laboratoria 2017-2</h6>
-              <div class="col s12 m4">
+            <div class="col s12  m8">
+              <div class="col s12 ">
                 <div class="icon-block">
-                  <div><img class="pin" src="assets/img/rocking.png" /></div>
-                  <p class="center contacto Playfair pin-nombre">Mejor Puntaje</p>
+                  <p class="light justify ">Hola! soy Eleyne Ramírez, Front-End Developer formada en Laboratoria e Ingeniería de Sistemas de la Universidad
+                    Nacional Hermilio Valdizán.</p>
+                  <p class="light justify">Me considero una persona perseverante ya que, he podido alcanzar los objetivos que me he propuesto. Además,
+                    en Laboratoria he podido desarrollar competencias como la <b>Proactividad y el Trabajo en Equipo, </b>obteniendo
+                    los siguientes reconocimientos:</p>
+                  <p class="light justify hide-on-med-and-up	show-on-small	">Además deseo especializarme en Investigación (Inteligencia Artificial y Proyectos), Data Science (Big Data)
+                    y en Gestión de Proyectos. </p>
+                  <div class="center">
+                    <div class="col s12 m4">
+                      <div class="icon-block">
+                        <div><img class="pin" src="assets/img/rocking.png" /></div>
+                        <p class="center contacto font2 pin-nombre">Mejor Puntaje</p>
+                      </div>
+                    </div>
 
-                </div>
-              </div>
+                    <div class="col s12 m4">
+                      <div class="icon-block">
+                        <div><img class="pin" src="assets/img/logo.bin" /></div>
+                        <p class="center contacto font2 pin-nombre">Perseverante</p>
+                      </div>
+                    </div>
 
-              <div class="col s12 m4">
-                <div class="icon-block">
-                  <div><img class="pin" src="assets/img/logo.bin" /></div>
-                  <p class="center contacto Playfair  pin-nombre">Por ser perseverante</p>
-
-                </div>
-              </div>
-
-              <div class="col s12 m4">
-                <div class="icon-block">
-                  <div><img class="pin" src="assets/img/best_squad.png" /></div>
-
-                  <p class="center contacto Playfair  pin-nombre">Mejor trabajo en equipo</p>
-
+                    <div class="col s12 m4">
+                      <div class="icon-block">
+                        <div><img class="pin" src="assets/img/best_squad.png" /></div>
+                        <p class="center contacto font2 pin-nombre">Trabajo en equipo</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- Sección 3 -->
+  <!-- FIN DE SECCIÓN NÚMERO 2 -->
+
+  <!-- SECCIÓN NÚMERO 3 -->
   <section id="s3">
     <div class="section3 no-pad-bot">
       <div class="container">
         <div class="section">
-
-          <!--   Icon Section   -->
           <div class="row">
-            <h4 class="center Playfair">Proyectos</h4>
+            <h4 class="center sizetitle">Proyectos</h4>
             <p class="center">
-              <a href="#nav">Home</a> | Proyectos</p>
-
-            <div class="col s12 m4">
+              <a href="#nav"> - Home - </a></p>
+            <div class="col s12 m8">
               <div class="icon-block">
-
-                <h5 class="center">Lab - Car</h5>
-                <!-- normal -->
                 <div class="ih-item square effect13 bottom_to_top">
                   <a>
                     <div class="img">
@@ -160,23 +139,24 @@
                     </div>
                   </a>
                 </div>
-                <!-- end normal -->
-                <hr/>
-                <div class="row center">
-                  <a href="https://eleyka.github.io/lab-car-boilerplate/" id="download-button" class="btn-large waves-effect waves-light red lighten-3">Demo</a>
-                  <a href="https://github.com/Eleyka/lab-car-boilerplate" id="download-button" class="btn-large waves-effect waves-light brown lighten-2">Github</a>
-                </div>
-                <hr/>
-                <p class="center"><b>Descripción</b></p>
-                <p class="justify">LabCar nueva app que va ayudar a la gente a librarse de los atascos y pueda, así, disfrutar de más tiempo
-                  para sí misma. A la vez una opción flexible para incrementar tus metas financieras.</p>
               </div>
             </div>
-
             <div class="col s12 m4">
+              <div class="fondo">
+                <h5 class="center font2 bold">Lab - Car</h5>
+                <p class="justify">LabCar nueva app que va ayudar a la gente a librarse de los atascos y pueda, así, disfrutar de más tiempo
+                  para sí misma. A la vez una opción flexible para incrementar tus metas financieras.</p>
+                <div class="row center">
+                  <a href="https://eleyka.github.io/lab-car-boilerplate/" id="download-button" class="btn-large waves-effect waves-light transparent btndg">Demo</a>
+                  <a href="https://github.com/Eleyka/lab-car-boilerplate" id="download-button" class="btn-large waves-effect waves-light transparent btndg">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col s12 m8">
               <div class="icon-block">
-                <h5 class="center">Data Dashboard</h5>
-                <!-- normal -->
                 <div class="ih-item square effect13 bottom_to_top">
                   <a>
                     <div class="img">
@@ -188,24 +168,25 @@
                     </div>
                   </a>
                 </div>
-                <!-- end normal -->
-                <hr/>
-                <div class="row center">
-                  <a href="https://carlacentenor.github.io/data-dashboard/" id="download-button" class="btn-large waves-effect waves-light red lighten-3">Demo</a>
-                  <a href="https://github.com/carlacentenor/data-dashboard" id="download-button" class="btn-large waves-effect waves-light brown lighten-2">Github</a>
-                </div>
-                <hr/>
-                <p class="center"><b>Descripción</b></p>
-                <p class="justify">Data Dashboard es una representación gráfica de los principales indicadores que permite ver el rendimiento
-                  de la alumna de laboratoria y a la vez intervienen en la consecución de los objetivos de Laboratoria, y
-                  que está orientada a la toma de decisiones para optimizar la estrategia de la empresa.</p>
               </div>
             </div>
-
             <div class="col s12 m4">
+              <div class="fondo">
+                <h5 class="center font2 bold">Data Dashboard</h5>
+                <p class="justify">Data Dashboard es una representación gráfica de los principales indicadores que permite ver el rendimiento
+                  de la alumna de laboratoria, y que está orientada a la toma de decisiones para optimizar la estrategia
+                  de la empresa.</p>
+                <div class="row center">
+                  <a href="https://carlacentenor.github.io/data-dashboard/" id="download-button" class="btn-large waves-effect waves-light transparent btndg">Demo</a>
+                  <a href="https://github.com/carlacentenor/data-dashboard" id="download-button" class="btn-large waves-effect waves-light transparent btndg">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col s12 m8">
               <div class="icon-block">
-                <h5 class="center">Travel - Red Social</h5>
-                <!-- normal -->
                 <div class="ih-item square effect13 bottom_to_top">
                   <a>
                     <div class="img">
@@ -217,89 +198,81 @@
                     </div>
                   </a>
                 </div>
-                <!-- end normal -->
-                <hr/>
-                <div class="row center">
-                  <a href="https://jennifercarmen.github.io/weTravel-app/" id="download-button" class="btn-large waves-effect waves-light red lighten-3">Demo</a>
-                  <a href="https://github.com/Jennifercarmen/weTravel-app" id="download-button" class="btn-large waves-effect waves-light brown lighten-2">Github</a>
-                </div>
-                <hr/>
-                <p class="center"><b>Descripción</b></p>
+
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="fondo">
+                <h5 class="center font2 bold">Travel - Red Social</h5>
                 <p class="justify">weTravel app es una red social que brinda información y conecta a personas que desean viajar , permitiéndoles
                   acceder a contenido y experiencias que harán de su viaje algo inolvidable.</p>
+                <div class="row center">
+                  <a href="https://jennifercarmen.github.io/weTravel-app/" id="download-button" class="btn-large waves-effect waves-light transparent btndg">Demo</a>
+                  <a href="https://github.com/Jennifercarmen/weTravel-app" id="download-button" class="btn-large waves-effect waves-light transparent btndg">Github</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </div>
-
-    </div>
-
   </section>
+  <!-- FIN DE SECCIÓN NÚMERO 3 -->
 
-
-
-
-
-
-
-
-
-  <footer id="footer" class="page-footer grey darken-2">
+  <!-- SECCIÓN FOOTER -->
+  <footer id="footer" class="page-footer grey darken-3">
     <div class="container">
       <div class="row">
-        <h4 class="center Playfair">Contáctame</h4>
-        <p class="center">
-          <a href="#nav">Home</a> | Contáctame</p>
-        <div class="row">
-          <div class="row">
-            <div class="col m12 col s12 center-align ">
-              <!-- <a href="" download class="btn-floating btn waves-effect waves-light"><i class="material-icons">file_download</i></a> -->
-              <a href="assets/docs/cv.pdf" class="btn-floating btn waves-effect waves-light dowloand amber lighten-3" class="btn-floating btn waves-effect waves-light"><i class="material-icons">file_download</i></a>
-              <h5 class="cv">Download CV</h5>
-            </div>
+        <h4 class="center sizetitle">Contáctame</h4>
+        <p class="center"><a href="#nav"> - Home -</a></p>
+        <div class="col m12 col s12 center-align">
+          <a href="assets/docs/cv-eleyne.pdf" class=" btn waves-effect waves-light font2 btn-cv">Ver CV</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons icon">phone</i></h2>
+            <p class="center contacto font2 font2color">Mov.: 932843783</p>
           </div>
-          <div class="row">
-            <div class="col s12 m4">
-              <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons color-icon">phone</i></h2>
-                <p class="center contacto Playfair">Movistar: 932843783</p>
-              </div>
+        </div>
+        <div class="col s12 m3">
+          <a href="mailto:eramirez@gmail.com">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons icon">mail</i></h2>
+              <p class="center contacto font2 font2color">eramirez@gmail.com</p>
             </div>
-
-            <div class="col s12 m4">
-              <div class="icon-block center">
-                <h2 class="center brown-text"><i class="material-icons color-icon">email</i></h2>
-                <p class="center contacto Playfair">eramirez@gmail.com</p>
-              </div>
+          </a>
+        </div>
+        <div class="col s12 m3">
+          <a href="https://github.com/Eleyka">
+            <div class="icon-block">
+              <h2 class="center brown-text"><span class="icon-github icon"></span></h2>
+              <p class="center contacto font2 font2color">/Eleyka</p>
             </div>
-
-            <div class="col s12 m4">
-              <div class="icon-block center">
-                <h2 class="center brown-text"><i class="material-icons color-icon"><span class="icon-linkedin2"></span></i></h2>
-                <p class="center contacto Playfair"><a href="https://www.linkedin.com/in/eleyneramírez">in/eleyneramírez</a></p>
-              </div>
+          </a>
+        </div>
+        <div class="col s12 m3">
+          <a href="https://linkedin.com/in/eleyneramírez">
+            <div class="icon-block">
+              <h2 class="center brown-text"><span class="icon-linkedin2 icon"></span></h2>
+              <p class="center contacto font2 font2color">/eleyneramírez</p>
             </div>
-          </div>
-
+          </a>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container grey-text text-dark-1">
         © 2018 Copyright Eleyne Ramírez
-        <a class="grey-text text-lighten-4 right" href="#!">Laboratoria</a>
+        <a class="grey-text text-dark-1  right" href="#!">Laboratoria</a>
       </div>
     </div>
   </footer>
-
-
+  <!-- FIN DE SECCIÓN FOOTER -->
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 
